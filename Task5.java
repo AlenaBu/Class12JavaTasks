@@ -8,12 +8,12 @@ public class Task5 {
 		
 		int number=15;
 		boolean isPrime=true;
-		
+		//change
 		if (number>1) {
 			for (int i=2; i<number; i++) {
 				if(number%i==0) {
 					isPrime=false;
-					//break;
+					break;
 				}
 			}
 		}else {
